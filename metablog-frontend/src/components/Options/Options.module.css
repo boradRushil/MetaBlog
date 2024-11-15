@@ -1,0 +1,128 @@
+.didntReceiveThe {
+  align-self: stretch;
+  position: relative;
+}
+.resendEmail {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 104px;
+}
+.resend {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-xl);
+  background-color: var(--color-darkblue);
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.resend:hover {
+  background-color: var(--color-mediumslateblue);
+}
+.backToLogin {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 105px;
+}
+.login,
+.options {
+  align-self: stretch;
+  display: flex;
+}
+.login,
+.login:hover {
+  box-sizing: border-box;
+}
+.login {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-100);
+  padding: var(--padding-mini) var(--padding-xl);
+  background-color: transparent;
+  height: 50px;
+  border-radius: var(--br-8xs);
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.login:hover {
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+}
+.options {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+.otpContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-xl);
+  margin-top: var(--gap-3xs); 
+}
+
+.otpContainer p {
+  margin: 0;
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+}
+
+.otpInputContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+
+.otpInput {
+  width: 100%;
+  height: 50px;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color-gray-300);
+  padding: var(--padding-mini) var(--padding-xl);
+  font-size: var(--font-size-base);
+  font-family: var(--font-inter);
+  color: var(--color-gray-200);
+  background-color: transparent;
+}
+
+.verifyButton {
+  cursor: pointer;
+  border: 10px;
+  padding: var(--padding-mini) var(--padding-xl);
+  background-color: var(--color-darkblue);
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  color: var(--color-white);
+}
+
+.verifyButton:hover {
+  background-color: var(--color-mediumslateblue);
+}
+
+
+

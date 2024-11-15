@@ -1,0 +1,90 @@
+.blog-container {
+    padding: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.blog-header {
+    margin-bottom: 24px;
+}
+
+.blog-header img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.blog-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 16px 0;
+}
+
+.blog-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.blog-meta span {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.blog-content {
+    line-height: 1.6;
+}
+
+.blog-footer {
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid #ddd;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.blog-author-image{
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+    border-radius: 50% !important;
+}
+
+.comments-section {
+    margin-top: 2rem;
+}
+
+.comment-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-textarea {
+    resize: vertical;
+    min-height: 100px;
+    margin-bottom: 0.5rem;
+}
+
+.comment-submit-button {
+    align-self: flex-end;
+}
+
+.comment {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #f9fafb;
+    border: 1px solid #e5e7eb;
+}
+.comment-author-image {
+    width: 2.5rem;
+    height: 2.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.save-button {
+    margin-left: auto;
+}

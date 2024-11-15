@@ -1,0 +1,86 @@
+.email {
+  width: 41px;
+  border: 0;
+  outline: 0;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-base);
+  background-color: transparent;
+  height: 19px;
+  position: relative;
+  color: var(--color-gray-200);
+  text-align: left;
+  display: inline-block;
+  padding: 0;
+}
+.inputButton {
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  border: 1px solid var(--color-gray-300);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-xl);
+}
+.send {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 40px;
+}
+.inputButton1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-mini) var(--padding-xl);
+  background-color: var(--color-darkblue);
+  align-self: stretch;
+  border-radius: var(--br-8xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.inputButton1:hover {
+  background-color: var(--color-mediumslateblue);
+}
+.backToLogin {
+  position: relative;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 105px;
+}
+.emailSend,
+.loginLink {
+  align-self: stretch;
+  display: flex;
+}
+.loginLink {
+  cursor: pointer;
+  border: 1px solid var(--color-gray-100);
+  padding: var(--padding-mini) var(--padding-xl);
+  background-color: transparent;
+  border-radius: var(--br-8xs);
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.loginLink:hover {
+  background-color: var(--color-darkslategray-200);
+  border: 1px solid var(--color-darkslategray-100);
+  box-sizing: border-box;
+}
+.emailSend {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-11xl);
+}
