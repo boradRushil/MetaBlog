@@ -83,7 +83,7 @@ MetaBlog is a simple yet elegant blogging platform focused on tech-related blogs
 1. Clone the repository:
 
    ```bash
-   git clone https://git.cs.dal.ca/courses/2024-summer/csci-5308/group03.git
+   git clone https://github.com/boradRushil/MetaBlog.git
    ```
 
 2. Navigate to the frontend directory:
